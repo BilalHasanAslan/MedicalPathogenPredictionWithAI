@@ -1,0 +1,1128 @@
+Model: /convnext_tiny_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 33880 (41.55%)
+TN: 5740 (7.04%)
+FP: 1484 (1.82%)
+FN: 40432 (49.59%)
+F1: 12.09%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 48.59%
+------------------------------
+Model: /convnext_tiny_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1200 (29.30%)
+TN: 576 (14.06%)
+FP: 240 (5.86%)
+FN: 2080 (50.78%)
+F1: 23.82%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 43.36%
+------------------------------
+Model: /convnext_tiny_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 54320 (66.62%)
+TN: 6258 (7.68%)
+FP: 966 (1.18%)
+FN: 19992 (24.52%)
+F1: 11.19%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 74.30%
+------------------------------
+Model: /convnext_tiny_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2072 (50.59%)
+TN: 152 (3.71%)
+FP: 664 (16.21%)
+FN: 1208 (29.49%)
+F1: 8.93%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 54.30%
+------------------------------
+Model: /convnext_tiny_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 33880 (41.55%)
+TN: 5740 (7.04%)
+FP: 1484 (1.82%)
+FN: 40432 (49.59%)
+F1: 12.09%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 48.59%
+------------------------------
+Model: /convnext_tiny_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1200 (29.30%)
+TN: 576 (14.06%)
+FP: 240 (5.86%)
+FN: 2080 (50.78%)
+F1: 23.82%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 43.36%
+------------------------------
+Model: /convnext_tiny_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 54320 (66.62%)
+TN: 6258 (7.68%)
+FP: 966 (1.18%)
+FN: 19992 (24.52%)
+F1: 11.19%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 74.30%
+------------------------------
+Model: /convnext_tiny_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2072 (50.59%)
+TN: 152 (3.71%)
+FP: 664 (16.21%)
+FN: 1208 (29.49%)
+F1: 8.93%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 54.30%
+------------------------------
+Model: /convnext_tiny_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 49966 (61.28%)
+TN: 5208 (6.39%)
+FP: 2016 (2.47%)
+FN: 24346 (29.86%)
+F1: 9.29%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 67.67%
+------------------------------
+Model: /convnext_tiny_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1184 (28.91%)
+TN: 448 (10.94%)
+FP: 368 (8.98%)
+FN: 2096 (51.17%)
+F1: 17.32%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 39.84%
+------------------------------
+Model: /convnext_small_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 37786 (46.34%)
+TN: 420 (0.52%)
+FP: 6804 (8.34%)
+FN: 36526 (44.80%)
+F1: 2.66%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.86%
+------------------------------
+Model: /convnext_small_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1944 (47.46%)
+TN: 192 (4.69%)
+FP: 624 (15.23%)
+FN: 1336 (32.62%)
+F1: 8.11%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.15%
+------------------------------
+Model: /convnext_small_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 31094 (38.14%)
+TN: 6566 (8.05%)
+FP: 658 (0.81%)
+FN: 43218 (53.00%)
+F1: 12.01%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.19%
+------------------------------
+Model: /convnext_small_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1448 (35.35%)
+TN: 184 (4.49%)
+FP: 632 (15.43%)
+FN: 1832 (44.73%)
+F1: 9.97%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 39.84%
+------------------------------
+Model: /convnext_small_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 39396 (48.32%)
+TN: 6300 (7.73%)
+FP: 924 (1.13%)
+FN: 34916 (42.82%)
+F1: 11.45%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.04%
+------------------------------
+Model: /convnext_small_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1304 (31.84%)
+TN: 248 (6.05%)
+FP: 568 (13.87%)
+FN: 1976 (48.24%)
+F1: 13.10%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 37.89%
+------------------------------
+Model: /convnext_base_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 34692 (42.55%)
+TN: 5684 (6.97%)
+FP: 1540 (1.89%)
+FN: 39620 (48.59%)
+F1: 10.44%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.52%
+------------------------------
+Model: /convnext_base_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1336 (32.62%)
+TN: 304 (7.42%)
+FP: 512 (12.50%)
+FN: 1944 (47.46%)
+F1: 15.00%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 40.04%
+------------------------------
+Model: /convnext_base_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 24822 (30.44%)
+TN: 6174 (7.57%)
+FP: 1050 (1.29%)
+FN: 49490 (60.70%)
+F1: 11.85%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 38.02%
+------------------------------
+Model: /convnext_base_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1736 (42.38%)
+TN: 256 (6.25%)
+FP: 560 (13.67%)
+FN: 1544 (37.70%)
+F1: 15.49%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 48.63%
+------------------------------
+Model: /convnext_base_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 42434 (52.04%)
+TN: 4746 (5.82%)
+FP: 2478 (3.04%)
+FN: 31878 (39.10%)
+F1: 10.98%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 57.86%
+------------------------------
+Model: /convnext_base_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1152 (28.12%)
+TN: 368 (8.98%)
+FP: 448 (10.94%)
+FN: 2128 (51.95%)
+F1: 18.42%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 37.11%
+------------------------------
+Model: /swin_v2_t_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 44492 (54.57%)
+TN: 4928 (6.04%)
+FP: 2296 (2.82%)
+FN: 29820 (36.57%)
+F1: 14.30%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 60.61%
+------------------------------
+Model: /swin_v2_t_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1344 (32.81%)
+TN: 560 (13.67%)
+FP: 256 (6.25%)
+FN: 1936 (47.27%)
+F1: 23.73%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.48%
+------------------------------
+Model: /swin_v2_t_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 40950 (50.22%)
+TN: 5278 (6.47%)
+FP: 1946 (2.39%)
+FN: 33362 (40.92%)
+F1: 12.63%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.70%
+------------------------------
+Model: /swin_v2_t_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1432 (34.96%)
+TN: 504 (12.30%)
+FP: 312 (7.62%)
+FN: 1848 (45.12%)
+F1: 32.16%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.27%
+------------------------------
+Model: /swin_v2_t_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 37464 (45.95%)
+TN: 4942 (6.06%)
+FP: 2282 (2.80%)
+FN: 36848 (45.19%)
+F1: 11.50%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.01%
+------------------------------
+Model: /swin_v2_t_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1208 (29.49%)
+TN: 456 (11.13%)
+FP: 360 (8.79%)
+FN: 2072 (50.59%)
+F1: 23.42%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 40.62%
+------------------------------
+Model: /swin_v2_s_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 34790 (42.67%)
+TN: 4186 (5.13%)
+FP: 3038 (3.73%)
+FN: 39522 (48.47%)
+F1: 9.57%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.80%
+------------------------------
+Model: /swin_v2_s_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 776 (18.95%)
+TN: 504 (12.30%)
+FP: 312 (7.62%)
+FN: 2504 (61.13%)
+F1: 22.00%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 31.25%
+------------------------------
+Model: /swin_v2_s_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 31864 (39.08%)
+TN: 3080 (3.78%)
+FP: 4144 (5.08%)
+FN: 42448 (52.06%)
+F1: 8.13%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 42.86%
+------------------------------
+Model: /swin_v2_s_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2128 (51.95%)
+TN: 544 (13.28%)
+FP: 272 (6.64%)
+FN: 1152 (28.12%)
+F1: 28.48%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 65.23%
+------------------------------
+Model: /swin_v2_s_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 37254 (45.69%)
+TN: 4718 (5.79%)
+FP: 2506 (3.07%)
+FN: 37058 (45.45%)
+F1: 10.98%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.48%
+------------------------------
+Model: /swin_v2_s_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1872 (45.70%)
+TN: 464 (11.33%)
+FP: 352 (8.59%)
+FN: 1408 (34.38%)
+F1: 26.43%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 57.03%
+------------------------------
+Model: /swin_v2_b_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 34188 (41.93%)
+TN: 4060 (4.98%)
+FP: 3164 (3.88%)
+FN: 40124 (49.21%)
+F1: 8.65%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.91%
+------------------------------
+Model: /swin_v2_b_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1512 (36.91%)
+TN: 584 (14.26%)
+FP: 232 (5.66%)
+FN: 1768 (43.16%)
+F1: 25.08%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.17%
+------------------------------
+Model: /swin_v2_b_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 40166 (49.26%)
+TN: 4900 (6.01%)
+FP: 2324 (2.85%)
+FN: 34146 (41.88%)
+F1: 11.14%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 55.27%
+------------------------------
+Model: /swin_v2_b_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1824 (44.53%)
+TN: 200 (4.88%)
+FP: 616 (15.04%)
+FN: 1456 (35.55%)
+F1: 12.34%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.41%
+------------------------------
+Model: /swin_v2_b_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 22960 (28.16%)
+TN: 4340 (5.32%)
+FP: 2884 (3.54%)
+FN: 51352 (62.98%)
+F1: 12.08%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 33.48%
+------------------------------
+Model: /swin_v2_b_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1392 (33.98%)
+TN: 632 (15.43%)
+FP: 184 (4.49%)
+FN: 1888 (46.09%)
+F1: 24.39%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.41%
+------------------------------
+Model: /densenet121_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 41258 (50.60%)
+TN: 4704 (5.77%)
+FP: 2520 (3.09%)
+FN: 33054 (40.54%)
+F1: 10.33%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.37%
+------------------------------
+Model: /densenet121_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2216 (54.10%)
+TN: 376 (9.18%)
+FP: 440 (10.74%)
+FN: 1064 (25.98%)
+F1: 15.63%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 63.28%
+------------------------------
+Model: /densenet121_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 37828 (46.39%)
+TN: 4452 (5.46%)
+FP: 2772 (3.40%)
+FN: 36484 (44.75%)
+F1: 9.67%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.85%
+------------------------------
+Model: /densenet121_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1912 (46.68%)
+TN: 232 (5.66%)
+FP: 584 (14.26%)
+FN: 1368 (33.40%)
+F1: 16.36%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.34%
+------------------------------
+Model: /densenet121_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 44268 (54.29%)
+TN: 6174 (7.57%)
+FP: 1050 (1.29%)
+FN: 30044 (36.85%)
+F1: 12.54%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 61.86%
+------------------------------
+Model: /densenet121_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1784 (43.55%)
+TN: 496 (12.11%)
+FP: 320 (7.81%)
+FN: 1496 (36.52%)
+F1: 21.82%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 55.66%
+------------------------------
+Model: /densenet169_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 40404 (49.55%)
+TN: 4144 (5.08%)
+FP: 3080 (3.78%)
+FN: 33908 (41.59%)
+F1: 8.19%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 54.64%
+------------------------------
+Model: /densenet169_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1808 (44.14%)
+TN: 272 (6.64%)
+FP: 544 (13.28%)
+FN: 1472 (35.94%)
+F1: 19.46%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 50.78%
+------------------------------
+Model: /densenet169_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 30142 (36.97%)
+TN: 5068 (6.22%)
+FP: 2156 (2.64%)
+FN: 44170 (54.17%)
+F1: 9.86%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 43.18%
+------------------------------
+Model: /densenet169_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1896 (46.29%)
+TN: 240 (5.86%)
+FP: 576 (14.06%)
+FN: 1384 (33.79%)
+F1: 13.67%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.15%
+------------------------------
+Model: /densenet169_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 43960 (53.91%)
+TN: 770 (0.94%)
+FP: 6454 (7.92%)
+FN: 30352 (37.23%)
+F1: 3.18%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 54.86%
+------------------------------
+Model: /densenet169_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1624 (39.65%)
+TN: 248 (6.05%)
+FP: 568 (13.87%)
+FN: 1656 (40.43%)
+F1: 18.64%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.70%
+------------------------------
+Model: /densenet201_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 36610 (44.90%)
+TN: 5334 (6.54%)
+FP: 1890 (2.32%)
+FN: 37702 (46.24%)
+F1: 11.63%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.44%
+------------------------------
+Model: /densenet201_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1656 (40.43%)
+TN: 448 (10.94%)
+FP: 368 (8.98%)
+FN: 1624 (39.65%)
+F1: 23.77%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.37%
+------------------------------
+Model: /densenet201_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 41524 (50.93%)
+TN: 6090 (7.47%)
+FP: 1134 (1.39%)
+FN: 32788 (40.21%)
+F1: 11.86%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 58.40%
+------------------------------
+Model: /densenet201_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1488 (36.33%)
+TN: 520 (12.70%)
+FP: 296 (7.23%)
+FN: 1792 (43.75%)
+F1: 22.74%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.02%
+------------------------------
+Model: /densenet201_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 32466 (39.82%)
+TN: 4984 (6.11%)
+FP: 2240 (2.75%)
+FN: 41846 (51.32%)
+F1: 11.93%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.93%
+------------------------------
+Model: /densenet201_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1592 (38.87%)
+TN: 264 (6.45%)
+FP: 552 (13.48%)
+FN: 1688 (41.21%)
+F1: 14.14%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.31%
+------------------------------
+Model: /resnet18_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 32494 (39.85%)
+TN: 4172 (5.12%)
+FP: 3052 (3.74%)
+FN: 41818 (51.29%)
+F1: 10.91%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 44.97%
+------------------------------
+Model: /resnet18_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1632 (39.84%)
+TN: 240 (5.86%)
+FP: 576 (14.06%)
+FN: 1648 (40.23%)
+F1: 12.06%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.70%
+------------------------------
+Model: /resnet18_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 46900 (57.52%)
+TN: 1638 (2.01%)
+FP: 5586 (6.85%)
+FN: 27412 (33.62%)
+F1: 4.87%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 59.53%
+------------------------------
+Model: /resnet18_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2248 (54.88%)
+TN: 280 (6.84%)
+FP: 536 (13.09%)
+FN: 1032 (25.20%)
+F1: 17.95%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 61.72%
+------------------------------
+Model: /resnet18_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 38752 (47.53%)
+TN: 2184 (2.68%)
+FP: 5040 (6.18%)
+FN: 35560 (43.61%)
+F1: 6.81%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 50.21%
+------------------------------
+Model: /resnet18_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1760 (42.97%)
+TN: 528 (12.89%)
+FP: 288 (7.03%)
+FN: 1520 (37.11%)
+F1: 25.78%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 55.86%
+------------------------------
+Model: /resnet50_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 34314 (42.08%)
+TN: 3514 (4.31%)
+FP: 3710 (4.55%)
+FN: 39998 (49.06%)
+F1: 9.69%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.39%
+------------------------------
+Model: /resnet50_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2480 (60.55%)
+TN: 280 (6.84%)
+FP: 536 (13.09%)
+FN: 800 (19.53%)
+F1: 13.80%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 67.38%
+------------------------------
+Model: /resnet50_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 20636 (25.31%)
+TN: 2016 (2.47%)
+FP: 5208 (6.39%)
+FN: 53676 (65.83%)
+F1: 4.86%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 27.78%
+------------------------------
+Model: /resnet50_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1952 (47.66%)
+TN: 376 (9.18%)
+FP: 440 (10.74%)
+FN: 1328 (32.42%)
+F1: 24.66%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.84%
+------------------------------
+Model: /resnet50_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 53774 (65.95%)
+TN: 3724 (4.57%)
+FP: 3500 (4.29%)
+FN: 20538 (25.19%)
+F1: 8.16%
+Test Accuracy: 0.72%
+
+Avg. Per Label Accuracy: 70.52%
+------------------------------
+Model: /resnet50_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2016 (49.22%)
+TN: 344 (8.40%)
+FP: 472 (11.52%)
+FN: 1264 (30.86%)
+F1: 22.02%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 57.62%
+------------------------------
+Model: /resnet152_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 44114 (54.10%)
+TN: 2184 (2.68%)
+FP: 5040 (6.18%)
+FN: 30198 (37.04%)
+F1: 7.94%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.78%
+------------------------------
+Model: /resnet152_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1728 (42.19%)
+TN: 552 (13.48%)
+FP: 264 (6.45%)
+FN: 1552 (37.89%)
+F1: 25.23%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 55.66%
+------------------------------
+Model: /resnet152_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 26950 (33.05%)
+TN: 4214 (5.17%)
+FP: 3010 (3.69%)
+FN: 47362 (58.09%)
+F1: 10.70%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 38.22%
+------------------------------
+Model: /resnet152_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1608 (39.26%)
+TN: 336 (8.20%)
+FP: 480 (11.72%)
+FN: 1672 (40.82%)
+F1: 16.96%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.46%
+------------------------------
+Model: /resnet152_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 34160 (41.90%)
+TN: 3122 (3.83%)
+FP: 4102 (5.03%)
+FN: 40152 (49.24%)
+F1: 9.03%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.72%
+------------------------------
+Model: /resnet152_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1136 (27.73%)
+TN: 656 (16.02%)
+FP: 160 (3.91%)
+FN: 2144 (52.34%)
+F1: 27.68%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 43.75%
+------------------------------
+Model: /efficientnet_v2_s_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 39452 (48.39%)
+TN: 3178 (3.90%)
+FP: 4046 (4.96%)
+FN: 34860 (42.75%)
+F1: 8.91%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.28%
+------------------------------
+Model: /efficientnet_v2_s_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2032 (49.61%)
+TN: 416 (10.16%)
+FP: 400 (9.77%)
+FN: 1248 (30.47%)
+F1: 19.63%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 59.77%
+------------------------------
+Model: /efficientnet_v2_s_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 35378 (43.39%)
+TN: 3318 (4.07%)
+FP: 3906 (4.79%)
+FN: 38934 (47.75%)
+F1: 9.78%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.46%
+------------------------------
+Model: /efficientnet_v2_s_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1744 (42.58%)
+TN: 368 (8.98%)
+FP: 448 (10.94%)
+FN: 1536 (37.50%)
+F1: 21.58%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.56%
+------------------------------
+Model: /efficientnet_v2_s_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 33614 (41.23%)
+TN: 2562 (3.14%)
+FP: 4662 (5.72%)
+FN: 40698 (49.91%)
+F1: 6.85%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 44.37%
+------------------------------
+Model: /efficientnet_v2_s_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1472 (35.94%)
+TN: 560 (13.67%)
+FP: 256 (6.25%)
+FN: 1808 (44.14%)
+F1: 27.52%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.61%
+------------------------------
+Model: /efficientnet_v2_m_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 37800 (46.36%)
+TN: 2702 (3.31%)
+FP: 4522 (5.55%)
+FN: 36512 (44.78%)
+F1: 8.72%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.67%
+------------------------------
+Model: /efficientnet_v2_m_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2424 (59.18%)
+TN: 216 (5.27%)
+FP: 600 (14.65%)
+FN: 856 (20.90%)
+F1: 12.41%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 64.45%
+------------------------------
+Model: /efficientnet_v2_m_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 30268 (37.12%)
+TN: 1680 (2.06%)
+FP: 5544 (6.80%)
+FN: 44044 (54.02%)
+F1: 4.95%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 39.18%
+------------------------------
+Model: /efficientnet_v2_m_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1464 (35.74%)
+TN: 456 (11.13%)
+FP: 360 (8.79%)
+FN: 1816 (44.34%)
+F1: 23.91%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.88%
+------------------------------
+Model: /efficientnet_v2_m_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 42742 (52.42%)
+TN: 4200 (5.15%)
+FP: 3024 (3.71%)
+FN: 31570 (38.72%)
+F1: 10.11%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 57.57%
+------------------------------
+Model: /efficientnet_v2_m_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2192 (53.52%)
+TN: 456 (11.13%)
+FP: 360 (8.79%)
+FN: 1088 (26.56%)
+F1: 20.84%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 64.65%
+------------------------------
+Model: /efficientnet_v2_l_pretrained_no_da_lbow.pt
+
+Overall Metrics for the Model:
+TP: 27818 (34.12%)
+TN: 4830 (5.92%)
+FP: 2394 (2.94%)
+FN: 46494 (57.02%)
+F1: 11.50%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 40.04%
+------------------------------
+Model: /efficientnet_v2_l_pretrained_no_da_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2152 (52.54%)
+TN: 240 (5.86%)
+FP: 576 (14.06%)
+FN: 1128 (27.54%)
+F1: 15.53%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 58.40%
+------------------------------
+Model: /efficientnet_v2_l_pretrained_RandomCrop_lbow.pt
+
+Overall Metrics for the Model:
+TP: 34356 (42.14%)
+TN: 2800 (3.43%)
+FP: 4424 (5.43%)
+FN: 39956 (49.00%)
+F1: 8.25%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.57%
+------------------------------
+Model: /efficientnet_v2_l_pretrained_RandomCrop_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1648 (40.23%)
+TN: 296 (7.23%)
+FP: 520 (12.70%)
+FN: 1632 (39.84%)
+F1: 18.44%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.46%
+------------------------------
+Model: /efficientnet_v2_l_pretrained_RandAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 42938 (52.66%)
+TN: 2968 (3.64%)
+FP: 4256 (5.22%)
+FN: 31374 (38.48%)
+F1: 9.19%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.30%
+------------------------------
+Model: /efficientnet_v2_l_pretrained_RandAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 824 (20.12%)
+TN: 504 (12.30%)
+FP: 312 (7.62%)
+FN: 2456 (59.96%)
+F1: 23.85%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 32.42%
+------------------------------

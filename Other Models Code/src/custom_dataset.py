@@ -56,8 +56,9 @@ class CustomDataset(Dataset):
             ]) 
 
     #This function reads the CSV file and parses the class labels and data entries
-    def parse_csv(self, csv_file):
-        with open(csv_file, 'r') as file:
+    def parse_csv(self, csv_file, encoding='utf-8'):
+        
+        with open(csv_file, 'r', encoding=encoding) as file:
             reader = csv.reader(file)
             labels_pre = next(reader)[2:] 
             labels = []
@@ -85,7 +86,7 @@ class CustomDataset(Dataset):
 
         #Image loading, handling for the different extension types in the image directories
         try:
-            image_path = os.path.join(self.image_dir, image_id)
+            image_path = os.path.join(self.image_dir, image_id  + '.jpg')
             image = Image.open(image_path)
         except:
                 image_path = os.path.join(self.image_dir, image_id + '.jpeg')
