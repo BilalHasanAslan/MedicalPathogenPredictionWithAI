@@ -13,12 +13,6 @@ import matplotlib.pyplot as plt
 import argparse
 from PIL import Image
 
-'''
-Author: Winner Kazaka
-Orginisation: UCT
-This code encapsulates data loading, model creation and training pipeline implementations delineated in the paper.
-This code is inspired by https://www.kaggle.com/code/pmigdal/transfer-learning-with-resnet-50-in-pytorch
-'''
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
