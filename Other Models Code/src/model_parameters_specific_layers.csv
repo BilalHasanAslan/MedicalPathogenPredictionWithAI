@@ -1,0 +1,16 @@
+Model Name,Number of Parameters,Number of Specific Layers
+resnet18,"11,689,512",21
+resnet50,"25,557,032",54
+resnet152,"60,192,808",156
+swin_v2_t,"28,351,570",77
+swin_v2_s,"49,737,442",149
+swin_v2_b,"87,930,848",149
+convnext_tiny,"28,589,128",59
+convnext_small,"50,223,688",113
+convnext_base,"88,591,464",113
+densenet121,"7,978,856",121
+densenet169,"14,149,480",169
+densenet201,"20,013,928",201
+efficientnet_v2_s,"21,458,488",171
+efficientnet_v2_m,"54,139,356",246
+efficientnet_v2_l,"118,515,272",340

@@ -1,0 +1,20 @@
+Model Name,Number of Parameters,Number of Layers/Error
+resnet18,"11,689,512",68
+resnet50,"25,557,032",151
+resnet152,"60,192,808",423
+swin_v2_t,"28,351,570",228
+swin_v2_s,"49,737,442",432
+swin_v2_b,"87,930,848",432
+convnext_tiny,"28,589,128",203
+convnext_small,"50,223,688",383
+convnext_base,"88,591,464",383
+densenet121,"7,978,856",433
+densenet169,"14,149,480",601
+densenet201,"20,013,928",713
+efficientnet_v2_s,"21,458,488",714
+efficientnet_v2_m,"54,139,356","1,022"
+efficientnet_v2_l,"118,515,272","1,409"
+,,
+DeepMAD,"24,212,274",
+ShapleyNAS,"1,495,845",
+ZenNAS,"18,480,386",

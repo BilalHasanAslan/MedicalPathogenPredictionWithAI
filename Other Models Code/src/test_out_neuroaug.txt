@@ -1,0 +1,360 @@
+Model: convnext_tiny_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 12516 (39.91%)
+TN: 2758 (8.79%)
+FP: 742 (2.37%)
+FN: 15344 (48.93%)
+F1: 13.78%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 48.71%
+------------------------------
+Model: convnext_tiny_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1984 (48.44%)
+TN: 424 (10.35%)
+FP: 392 (9.57%)
+FN: 1296 (31.64%)
+F1: 17.06%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 58.79%
+------------------------------
+Model: convnext_small_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 12894 (41.12%)
+TN: 2198 (7.01%)
+FP: 1302 (4.15%)
+FN: 14966 (47.72%)
+F1: 13.42%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 48.12%
+------------------------------
+Model: convnext_small_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1672 (40.82%)
+TN: 456 (11.13%)
+FP: 360 (8.79%)
+FN: 1608 (39.26%)
+F1: 16.18%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.95%
+------------------------------
+Model: convnext_base_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 12782 (40.76%)
+TN: 3038 (9.69%)
+FP: 462 (1.47%)
+FN: 15078 (48.08%)
+F1: 15.33%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 50.45%
+------------------------------
+Model: convnext_base_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1744 (42.58%)
+TN: 272 (6.64%)
+FP: 544 (13.28%)
+FN: 1536 (37.50%)
+F1: 12.50%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.22%
+------------------------------
+Model: swin_v2_t_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 11858 (37.81%)
+TN: 2436 (7.77%)
+FP: 1064 (3.39%)
+FN: 16002 (51.03%)
+F1: 14.82%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.58%
+------------------------------
+Model: swin_v2_t_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1312 (32.03%)
+TN: 344 (8.40%)
+FP: 472 (11.52%)
+FN: 1968 (48.05%)
+F1: 18.09%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 40.43%
+------------------------------
+Model: swin_v2_s_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 13608 (43.39%)
+TN: 1190 (3.79%)
+FP: 2310 (7.37%)
+FN: 14252 (45.45%)
+F1: 10.21%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.19%
+------------------------------
+Model: swin_v2_s_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1560 (38.09%)
+TN: 296 (7.23%)
+FP: 520 (12.70%)
+FN: 1720 (41.99%)
+F1: 14.46%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.31%
+------------------------------
+Model: swin_v2_b_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 12516 (39.91%)
+TN: 1778 (5.67%)
+FP: 1722 (5.49%)
+FN: 15344 (48.93%)
+F1: 13.35%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 45.58%
+------------------------------
+Model: swin_v2_b_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2152 (52.54%)
+TN: 528 (12.89%)
+FP: 288 (7.03%)
+FN: 1128 (27.54%)
+F1: 28.48%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 65.43%
+------------------------------
+Model: densenet121_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 15904 (50.71%)
+TN: 1708 (5.45%)
+FP: 1792 (5.71%)
+FN: 11956 (38.12%)
+F1: 11.46%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.16%
+------------------------------
+Model: densenet121_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1744 (42.58%)
+TN: 280 (6.84%)
+FP: 536 (13.09%)
+FN: 1536 (37.50%)
+F1: 18.45%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 49.41%
+------------------------------
+Model: densenet169_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 16282 (51.92%)
+TN: 2618 (8.35%)
+FP: 882 (2.81%)
+FN: 11578 (36.92%)
+F1: 15.06%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 60.27%
+------------------------------
+Model: densenet169_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1272 (31.05%)
+TN: 400 (9.77%)
+FP: 416 (10.16%)
+FN: 2008 (49.02%)
+F1: 21.24%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 40.82%
+------------------------------
+Model: densenet201_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 12054 (38.44%)
+TN: 1862 (5.94%)
+FP: 1638 (5.22%)
+FN: 15806 (50.40%)
+F1: 11.04%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 44.38%
+------------------------------
+Model: densenet201_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1072 (26.17%)
+TN: 464 (11.33%)
+FP: 352 (8.59%)
+FN: 2208 (53.91%)
+F1: 22.40%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 37.50%
+------------------------------
+Model: resnet18_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 16702 (53.26%)
+TN: 966 (3.08%)
+FP: 2534 (8.08%)
+FN: 11158 (35.58%)
+F1: 8.33%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 56.34%
+------------------------------
+Model: resnet18_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1984 (48.44%)
+TN: 440 (10.74%)
+FP: 376 (9.18%)
+FN: 1296 (31.64%)
+F1: 19.18%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 59.18%
+------------------------------
+Model: resnet50_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 12474 (39.78%)
+TN: 2422 (7.72%)
+FP: 1078 (3.44%)
+FN: 15386 (49.06%)
+F1: 15.96%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 47.50%
+------------------------------
+Model: resnet50_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1448 (35.35%)
+TN: 472 (11.52%)
+FP: 344 (8.40%)
+FN: 1832 (44.73%)
+F1: 22.45%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 46.88%
+------------------------------
+Model: resnet152_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 8498 (27.10%)
+TN: 2898 (9.24%)
+FP: 602 (1.92%)
+FN: 19362 (61.74%)
+F1: 16.23%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 36.34%
+------------------------------
+Model: resnet152_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1744 (42.58%)
+TN: 536 (13.09%)
+FP: 280 (6.84%)
+FN: 1536 (37.50%)
+F1: 24.67%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 55.66%
+------------------------------
+Model: efficientnet_v2_s_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 15134 (48.26%)
+TN: 2814 (8.97%)
+FP: 686 (2.19%)
+FN: 12726 (40.58%)
+F1: 16.33%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 57.23%
+------------------------------
+Model: efficientnet_v2_s_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1856 (45.31%)
+TN: 280 (6.84%)
+FP: 536 (13.09%)
+FN: 1424 (34.77%)
+F1: 14.99%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.15%
+------------------------------
+Model: efficientnet_v2_m_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 14602 (46.56%)
+TN: 1456 (4.64%)
+FP: 2044 (6.52%)
+FN: 13258 (42.28%)
+F1: 10.93%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 51.21%
+------------------------------
+Model: efficientnet_v2_m_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 2296 (56.05%)
+TN: 192 (4.69%)
+FP: 624 (15.23%)
+FN: 984 (24.02%)
+F1: 15.72%
+Test Accuracy: 1.56%
+
+Avg. Per Label Accuracy: 60.74%
+------------------------------
+Model: efficientnet_v2_l_pretrained_NeuralAug_lbow.pt
+
+Overall Metrics for the Model:
+TP: 10906 (34.78%)
+TN: 2646 (8.44%)
+FP: 854 (2.72%)
+FN: 16954 (54.06%)
+F1: 14.85%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 43.21%
+------------------------------
+Model: efficientnet_v2_l_pretrained_NeuralAug_Neck.pt
+
+Overall Metrics for the Model:
+TP: 1552 (37.89%)
+TN: 584 (14.26%)
+FP: 232 (5.66%)
+FN: 1728 (42.19%)
+F1: 25.96%
+Test Accuracy: 0.00%
+
+Avg. Per Label Accuracy: 52.15%
+------------------------------

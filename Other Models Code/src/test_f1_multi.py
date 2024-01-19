@@ -17,7 +17,7 @@ model_names = ["convnext_tiny", "convnext_small", "convnext_base", "swin_v2_t", 
                "efficientnet_v2_m", "efficientnet_v2_l"]
 pretrained_methods = ["pretrained"]
 da_methods = ["no_da", "RandomCrop", "RandAug"]
-datasets = ["lbow", "Neck"]
+datasets = ["Neck"]
 
 #Directory code to test all 240 models, provided they exist
 MODEL_PATHS = ["../trained_models/" + f"{model}_{pretrained}_{da}_{dataset}.pt" 
@@ -102,22 +102,46 @@ def testModels():
             overall_FP = 0
             overall_FN = 0
 
-            for c in range(classes):
-                TP = np.sum(np.logical_and(all_preds == 0, all_labels == 0))
-                TN = np.sum(np.logical_and(all_preds == 1, all_labels == 1))
-                FP = np.sum(np.logical_and(all_preds == 0, all_labels == 1))
-                FN = np.sum(np.logical_and(all_preds == 1, all_labels == 0))
-                
-                overall_TP += TP
-                overall_TN += TN
-                overall_FP += FP
-                overall_FN += FN
+            precision_per_class = []
+            tpr_per_class = []
+            fpr_per_class = []
 
-                total = TP + TN + FP + FN
-                confusion_matrix["TP"].append((TP, TP/total*100))
-                confusion_matrix["TN"].append((TN, TN/total*100))
-                confusion_matrix["FP"].append((FP, FP/total*100))
-                confusion_matrix["FN"].append((FN, FN/total*100))
+            for c in range(classes):
+                TP = np.sum(np.logical_and(all_preds == c, all_labels == c))
+                TN = np.sum(np.logical_and(all_preds != c, all_labels != c))
+                FP = np.sum(np.logical_and(all_preds == c, all_labels != c))
+                FN = np.sum(np.logical_and(all_preds != c, all_labels == c))
+
+                # Precision calculation
+                if TP + FP > 0:
+                    precision = TP / (TP + FP)
+                else:
+                    precision = 0
+                precision_per_class.append(precision)
+
+                # TPR calculation
+                if TP + FN > 0:
+                    TPR = TP / (TP + FN)
+                else:
+                    TPR = 0
+                tpr_per_class.append(TPR)
+
+                # FPR calculation
+                if FP + TN > 0:
+                    FPR = FP / (FP + TN)
+                else:
+                    FPR = 0
+                fpr_per_class.append(FPR)
+
+            # Calculating macro averages
+            macro_avg_precision = np.mean(precision_per_class)
+            macro_avg_TPR = np.mean(tpr_per_class)
+            macro_avg_FPR = np.mean(fpr_per_class)
+            print(model_path)
+            print(f"Macro Average Precision: {macro_avg_precision:.4f}")
+            print(f"Macro Average TPR: {macro_avg_TPR:.4f}")
+            print(f"Macro Average FPR: {macro_avg_FPR:.4f}")
+            
 
             f.write(f'Model: {model_name}\n')
             '''for label, class_name in enumerate(test_dataset.classes):
@@ -129,12 +153,14 @@ def testModels():
 
 
             overall_total = overall_TP + overall_TN + overall_FP + overall_FN
-            f.write(f'\nOverall Metrics for the Model:\n')
-            f.write(f'TP: {overall_TP} ({overall_TP/overall_total*100:.2f}%)\n')
-            f.write(f'TN: {overall_TN} ({overall_TN/overall_total*100:.2f}%)\n')
-            f.write(f'FP: {overall_FP} ({overall_FP/overall_total*100:.2f}%)\n')
-            f.write(f'FN: {overall_FN} ({overall_FN/overall_total*100:.2f}%)\n')
-
+            try:
+                f.write(f'\nOverall Metrics for the Model:\n')
+                f.write(f'TP: {overall_TP} ({overall_TP/overall_total*100:.2f}%)\n')
+                f.write(f'TN: {overall_TN} ({overall_TN/overall_total*100:.2f}%)\n')
+                f.write(f'FP: {overall_FP} ({overall_FP/overall_total*100:.2f}%)\n')
+                f.write(f'FN: {overall_FN} ({overall_FN/overall_total*100:.2f}%)\n')
+            except:
+                pass
             hamming = hamming_loss(all_labels, all_preds) * 100
             f1 = f1_score(all_labels, all_preds, average='macro') * 100
             '''auc = roc_auc_score(all_labels, all_preds, average='micro') * 100
